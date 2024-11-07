@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.latest-match-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  text-align: left;
+  align-self: flex-start;
+}
+.latest-match-card {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 10px;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.match-mid-image {
+  width: 40%;
+  height: 40%;
+}
+.title {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
